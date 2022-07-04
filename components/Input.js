@@ -6,7 +6,7 @@ export default function Input() {
         <img src="https://toppng.com/uploads/preview/orihime-sky-flower-icon-circle-anime-girl-icon-11562944617lbguf3wuov.png" alt="user-img" className="h-11 w-11 rounded-full cursor-pointer hover:brightness-90"/>
         <div className="w-full divide-y divide-gray-200">
             <div className="">
-                <textarea className="w-full border-none focus:ring-0 text-lg placeholder-gray-700 tracking-wide min-h-[50px] text-gray-700" rows="2" placeholder="What's happen ing?" />
+                <textarea className="w-full border-none focus:ring-0 text-lg placeholder-gray-700 tracking-wide min-h-[50px] text-gray-700" rows="2" placeholder="What's happening?" />
             </div>
             <div className="flex items-center justify-between pt-2.5">
                 <div className="flex">
