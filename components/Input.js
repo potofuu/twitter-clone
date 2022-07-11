@@ -1,6 +1,11 @@
 import { EmojiHappyIcon, PhotographIcon } from "@heroicons/react/outline";
+import {useSession} from "next-auth/react"
 
 export default function Input() {
+
+    const {data: session} = useSession()
+    console.log(session);
+
   return (
     <div className="flex border-b border-gray-200 p-3 space-x-3">
         <img src="https://toppng.com/uploads/preview/orihime-sky-flower-icon-circle-anime-girl-icon-11562944617lbguf3wuov.png" alt="user-img" className="h-11 w-11 rounded-full cursor-pointer hover:brightness-90"/>
