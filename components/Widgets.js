@@ -16,7 +16,7 @@ export default function Widgets({newsResults, randomUsersResults}) {
         </div>
 
         <div className="text-gray-700 space-y-3 bg-gray-100 rounded-xl pd-2 w-[90%] xl:w-[75%]">
-          <h4 className="font-bold text-xl px-3 text-decoration-line: underline">What's happening</h4>
+          <h4 className="font-bold text-xl px-3 text-decoration-line: underline">Whats happening</h4>
           {newsResults.slice(0,articleNum).map((article)=>(
           <News key={article.title} article={article}/>
         ))}
